@@ -22,6 +22,9 @@ public class PedidoModel {
     @Column(name = "status")
     private String status;
 
+    public PedidoModel() {
+    }
+
     public Long getId() {
         return id;
     }
